@@ -1,0 +1,30 @@
+name: gemstone_shop
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/gemstone.png
+    - assets/images/gemstone_white.png
+    - assets/images/gemstone_yellow.png
+    - assets/images/gemstone_platinum.png
+    - assets/images/gemstone_rose.png
+    - assets/images/gemstone_blue.png
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/gemstone.png"

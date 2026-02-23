@@ -1,0 +1,20 @@
+# To set a custom app icon for Flutter, use the flutter_launcher_icons package.
+# Add this to your pubspec.yaml:
+#
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  web: true
+  windows: true
+  macos: true
+  linux: true
+  image_path: "assets/images/gemstone.png"
+
+# After saving, run:
+# flutter pub get
+# flutter pub run flutter_launcher_icons:main
+
+# This will generate app icons for all platforms using gemstone.png.
