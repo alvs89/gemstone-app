@@ -1,5 +1,5 @@
 // ============================================================================
-// LABORATORY ACTIVITY: GemStone Mobile Application
+// LABORATORY ACTIVITY: 3.1 Gem Stone App
 // COURSE/SECTION: BSCS / CS32S3
 // DEVELOPER: Alvin J. Guillermo
 // INSTITUTION: Technological Institute of the Philippines (T.I.P.)
@@ -217,9 +217,9 @@ class _ProductPageState extends State<ProductPage> {
   double _calculateDynamicPrice(String material, double size) {
     double calculatedPrice = productDetails['basePrice'];
 
-    if (material == 'Yellow Gold' ||
-        material == 'Rose Gold' ||
-        material == 'Blue') {
+    // FIXED: Removed 'Blue' so it no longer adds the 5,000 premium.
+    // Now, 'Blue' will correctly cost exactly the 56,500 base price.
+    if (material == 'Yellow Gold' || material == 'Rose Gold') {
       calculatedPrice += 5000.00;
     } else if (material == 'Platinum') {
       calculatedPrice += 15000.00;
