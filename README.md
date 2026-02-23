@@ -1,7 +1,7 @@
 # 💎 GemStone E-Commerce Application
 
-> **LABORATORY ACTIVITY: 3.1 Gem Stone App**
-> **Developer:** Alvin J. Guillermo 
+> **LABORATORY ACTIVITY: 3.1 Gem Stone App**  
+> **Developer:** Alvin J. Guillermo  
 > **Program/Section:** BSCS / CS32S3  
 > **Institution:** Technological Institute of the Philippines (T.I.P.)
 

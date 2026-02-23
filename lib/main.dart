@@ -216,9 +216,6 @@ class _ProductPageState extends State<ProductPage> {
   // premium based on the physical size of the band starting from the base size.
   double _calculateDynamicPrice(String material, double size) {
     double calculatedPrice = productDetails['basePrice'];
-
-    // FIXED: Removed 'Blue' so it no longer adds the 5,000 premium.
-    // Now, 'Blue' will correctly cost exactly the 56,500 base price.
     if (material == 'Yellow Gold' || material == 'Rose Gold') {
       calculatedPrice += 5000.00;
     } else if (material == 'Platinum') {
